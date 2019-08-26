@@ -14,7 +14,7 @@ public class AsyncFutureRead {
         ByteBuffer buffer = ByteBuffer.allocate(10000);
 
         //The file to read the contents from.
-        Path path = Paths.get("/Users/dadasaheb/Documents/GitHub/Java-nio-examples/src/AsyncFutureRead.java");
+        Path path = Paths.get("./src/AsyncFutureRead.java");
 
         //Creating the asynchronous channel to the file which allows reading and writing of content.
         try(AsynchronousFileChannel asyncChannel = AsynchronousFileChannel.open(path)){
